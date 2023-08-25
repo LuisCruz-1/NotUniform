@@ -7981,6 +7981,6 @@ html {
     width: 100%; }
 
     .projects-section.hiro-section{
-      display: none;
+      display: none!important;
     }
 /*# sourceMappingURL=style.css.map */
