@@ -7312,13 +7312,19 @@ html {
 .hiro-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: relative;
   z-index: 1001; }
   .hiro-nav .logo-white {
     display: none; }
-
+.logo{
+  width: 150px;
+}
+.logo-white{
+  width: 150px;
+  filter: brightness(0) invert(1);
+}
 .hiro-nav-popup-toggle {
   border: 0;
   background-color: transparent; }
